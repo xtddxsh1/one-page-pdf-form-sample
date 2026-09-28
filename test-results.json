@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-09-28",
+  "source_and_result_pages": 1,
+  "fields": [
+    "project_name",
+    "reference",
+    "contact_name",
+    "email",
+    "requested_date",
+    "output_format",
+    "approved_text",
+    "layout_reference",
+    "instructions"
+  ],
+  "canonical_values_and_widget_values_match": true,
+  "saved_values_reopened": true,
+  "appearance_streams_present": true,
+  "static_text_unchanged": true,
+  "tooling": "reportlab 4.4.9, pypdf 6.9.2",
+  "not_tested": [
+    "Adobe Acrobat UI",
+    "Microsoft Word",
+    "every PDF viewer",
+    "digital signatures",
+    "screen-reader/PDF-UA compliance"
+  ],
+  "visual_review": "Passed: blank and saved-value page renders reviewed; no clipped text or missing check marks. Poppler font fallback warnings were present."
+}
